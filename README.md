@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # policy-embed-index-job
 
 `policy-embed-index-job` is a separate Code Engine ingestion job that reads files uploaded by `crawler_POC` from IBM Cloud Object Storage, extracts text from article attachments, generates multilingual embeddings with watsonx.ai Granite, and writes chunk vectors to Milvus.
@@ -93,3 +94,7 @@ ibmcloud ce job create --name policy-embed-index-job --image us.icr.io/<namespac
 ```
 
 Then attach a secret or env set that contains the COS, watsonx.ai, and Milvus variables from `.env.example`.
+=======
+# embeding_poc
+embeding 과정 실습
+>>>>>>> cdbad8a787d6ceb3ef1f57d5b670f8f0cfb49d7c
